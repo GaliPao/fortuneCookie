@@ -1,0 +1,57 @@
+.quoteBox {
+    display: grid;
+    grid-template-rows: auto 1fr auto; 
+    min-height: 100vh;
+    place-items: center;
+    width: min(100%, 400px);
+    padding: 20px 10px;
+    margin: 0 auto;
+    
+}
+
+.bottonBox{
+    
+
+    color: whitesmoke;
+    background-color: #9663ad;
+    border-radius: 0.25rem;
+    padding: 0.5rem; 
+    position: relative;
+    top: -100px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    
+
+    
+}
+
+
+.phraseBox {
+
+    border: 1px solid #000; 
+    padding: 20px; 
+    place-items: center;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+       
+
+}
+
+.quoteFooter {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px; 
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+    color: #fff; /* Texto blanco */
+    text-shadow: -2px -2px 0 #a05134,  
+                  2px -2px 0 #a05134,
+                 -2px  2px 0 #a05134,
+                  2px  2px 0 #a05134; /* Sombra de texto naranja */
+    font-size: 40px;
